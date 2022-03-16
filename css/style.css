@@ -4,7 +4,54 @@
 }
 
 .header{
-    min-height: 100vh;
+    min-height: 10vh;
     width: 100%;
     background: goldenrod;
+}
+
+nav{ 
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+
+    flex: 1;
+    text-align: right;
+
+}
+
+.nav-links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.nav-links ul li::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: auto;
+
+
+}
+
+.nav-links ul li::after{
+
+    
 }
