@@ -42,16 +42,44 @@ nav{
 
 .nav-links ul li::after{
     content: "";
-    width: 100%;
+    width: 0%;
     height: 2px;
     background: black;
     display: block;
     margin: auto;
-
+    transition: 0.5s;
 
 }
 
-.nav-links ul li::after{
+.nav-links ul li:hover::after{
+    width: 100%;
 
-    
+}
+
+.text-box{
+
+    width: 50%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 12px;
+}
+
+
+
+.early-col{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.row{
+
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
 }
